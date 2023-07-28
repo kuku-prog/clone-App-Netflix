@@ -34,16 +34,10 @@ function Banner() {
 				backgroundPosition: "center center",
 			}}
 		>
-			{/* <img
-				className="banner_img"
-				// src="${base_url}${movie?.backdrop_path}"
-			></img> */}
-
 			<div className="banner__contents">
 				<h1 className="banner__title">
 					{movie?.title || movie?.name || movie.original_name}
 				</h1>
-				{/* className="banner__button" */}
 				<div>
 					<button className="banner__button">Play</button>
 					<button className="banner__button">My List</button>
