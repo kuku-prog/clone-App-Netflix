@@ -58,15 +58,3 @@ function Banner() {
 }
 
 export default Banner;
-
-// useEffect(() => {
-// 	fetch(`${baseURL1}${requests.fetchNetflixOriginals}`)
-// 		.then((data) => {
-// 			return data.json();
-// 		})
-// 		.then((data) => {
-// 			setMovie(() => {
-// 				return data.results[Math.floor(Math.random() * data.results.length)];
-// 			});
-// 		});
-// }, []);
