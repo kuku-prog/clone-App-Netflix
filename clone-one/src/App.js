@@ -5,12 +5,10 @@ import Banner from "./components/Banner";
 import "./App.css";
 import Nav from "./components/Nav";
 
-// import dotenv from "dotenv";
-// dotenv.configDotenv();
-
 // {process.env.API}//Where I need that document or password that
 
 function App() {
+	console.log(process.env);
 	return (
 		<div className="App">
 			<Nav />
